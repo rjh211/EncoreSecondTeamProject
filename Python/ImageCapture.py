@@ -14,7 +14,11 @@ while True:
         print('capture')
         cv2.IMREAD_UNCHANGED       
         cv2.imwrite("EncoreSecondTeamProject/Image_F/cap.png", img)   #영상캡쳐파일을 cap.png로 저장
+<<<<<<< HEAD
         
+=======
+         
+>>>>>>> 559aae7976d4782c95206c793d52783135a18fc8
     if cv2.waitKey(10) == 27:              #esc키 누르면 종료
         break
     
