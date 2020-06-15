@@ -89,7 +89,8 @@ public class ChattingRoom extends JFrame {
     }
     
     public static void main(String[] args) {
-        new ChattingRoom();
+        System.out.println("test");
+    	/*new ChattingRoom();*/
     }
 
  }
